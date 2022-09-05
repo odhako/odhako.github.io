@@ -1,3 +1,6 @@
+html {
+    color: #333333;
+}
 body {
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
@@ -5,15 +8,15 @@ body {
     width: 500px;
 }
 
-body>main>h1 {
+h1 {
     text-align: center;
     font-size: 50px;
-    border-bottom: 3px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-style: double;
-    
+    border: double #333333;
+    border-width: 0 0 5px 0;
+}
+
+h1:hover {
+    border-color: coral;
 }
 
 section {
@@ -25,12 +28,13 @@ section {
 }
 
 a {
-    color: black;
+    color: #333333;
     text-decoration: none;
 }
 
 a:hover {
     color: coral;
+    text-decoration: underline;
 }
 
 footer>div {
