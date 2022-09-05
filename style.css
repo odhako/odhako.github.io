@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    width: 500px;
+}
+
+body>main>h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: double;
+    
+}
+
+section {
+    padding: 15px;
+    padding-top: 5px;
+    margin: 20px;
+    background-color: cornsilk;
+    border-radius: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+footer>div {
+    text-align: center;
+}
